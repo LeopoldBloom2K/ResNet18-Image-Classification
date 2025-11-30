@@ -1,0 +1,33 @@
+# 1. 가상환경 (Virtual Environment)
+.venv/
+venv/
+env/
+
+# 2. 에디터 설정 파일 (VS Code 등)
+.vscode/
+.idea/
+
+# 3. Python 자동 생성 파일 (Bytecode)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. 데이터셋 (용량이 크므로 제외)
+catanddog/
+catanddog.zip
+*.zip
+*.tar
+*.tar.gz
+
+# 5. 학습된 모델 가중치 (Large Files)
+# 100MB가 넘어가면 GitHub 업로드 제한이 걸립니다.
+*.pth
+*.pt
+resnet18_catdog.pth
+
+# 6. Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 7. OS 시스템 파일
+.DS_Store
+Thumbs.db

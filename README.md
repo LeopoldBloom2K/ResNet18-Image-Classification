@@ -1,6 +1,7 @@
 # 🐱🐶 Cat vs Dog Classification using Feature Extraction (PyTorch)
+*이 프로젝트는 PyTorch를 사용하여 특성 추출(Feature Extraction) 기법을 실습한 이미지 분류 모델링 코드입니다. 사전 학습된(Pre-trained) 모델을 활용하여 `Cat`과 `Dog` 데이터셋을 효과적으로 분류하는 방법을 다룹니다.*
 
-이 프로젝트는 **PyTorch**를 사용하여 **특성 추출(Feature Extraction)** 기법을 실습한 이미지 분류 모델링 코드입니다. 사전 학습된(Pre-trained) 모델을 활용하여 `Cat`과 `Dog` 데이터셋을 효과적으로 분류하는 방법을 다룹니다.
+![Dataset Sample](docs/catanddog.png)
 
 ## 프로젝트 개요
 - **목표**: 사전 학습된 모델의 가중치(Weight)를 고정한 상태로, 마지막 분류기(Classifier) 층만 학습시켜 새로운 데이터셋에 적용하는 **특성 추출** 기법 이해 및 구현.
@@ -47,7 +48,7 @@ flowchart LR
 
 **ResNet18 Feature Extraction을 통한 학습 안정성 및 성능 검증**
 
-![Training Graph](./loss_acc_graph.png)
+![Training Graph](docs/loss_acc_graph.png)
 
 * **Loss 추이 (Stable Convergence)**
     * **Training Loss**가 지속적으로 감소하며 모델이 데이터에 잘 적응하고 있음을 보여줍니다.
